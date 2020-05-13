@@ -36,7 +36,7 @@ extern void MQTTtoLORA(char * topicOri, JsonObject& RFdata);
 #define subjectGTWLORAtoMQTT  "/LORAtoMQTT"
 
 //Default parameters used when the parameters are not set in the json data
-#define LORA_BAND             868E6
+#define LORA_BAND             915E6
 #define LORA_SIGNAL_BANDWIDTH 125E3
 #define LORA_TX_POWER         17
 #define LORA_SPREADING_FACTOR 7
